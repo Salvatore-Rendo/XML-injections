@@ -1,0 +1,5 @@
+<!ELEMENT logins (login+)>
+<!ELEMENT login (user,pass,mail)>
+<!ELEMENT user (#PCDATA)>
+<!ELEMENT pass (#PCDATA)>
+<!ELEMENT mail (#PCDATA)>

